@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MiniVideoTool_Example' do
+  pod 'MiniVideoTool', :path => '../'
+
+  target 'MiniVideoTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
