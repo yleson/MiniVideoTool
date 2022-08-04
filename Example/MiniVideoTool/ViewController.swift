@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MiniVideoTool
 
 class ViewController: UIViewController {
 
@@ -18,6 +19,18 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let cameraVc = MiniCameraController()
+        cameraVc.modalPresentationStyle = .fullScreen
+        cameraVc.completeBlock = { url, type in
+            if type == .video {
+                // 只支持视频
+                
+            }
+        }
+        self.present(cameraVc, animated: true, completion: nil)
     }
 
 }

@@ -1,5 +1,5 @@
 import XCTest
-import MiniVideoTool
+//import MiniVideoTool
 
 class Tests: XCTestCase {
     

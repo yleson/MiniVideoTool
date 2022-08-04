@@ -1,0 +1,16 @@
+PODS:
+  - MiniVideoTool (0.1.0)
+
+DEPENDENCIES:
+  - MiniVideoTool (from `../`)
+
+EXTERNAL SOURCES:
+  MiniVideoTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MiniVideoTool: 705f55308c3edad42ba2de809eed67d17904870a
+
+PODFILE CHECKSUM: eaec1a2ca239653c48817f81fd83a6035cee5058
+
+COCOAPODS: 1.11.2

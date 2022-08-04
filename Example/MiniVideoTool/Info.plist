@@ -15,13 +15,21 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>"看猫"需要您的同意，才能使用相机拍摄照片进行上传/修改个人信息，如禁止将无法完成操作</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>"看猫"需要您的同意，才能使用麦克风进行录音，如禁止将无法完成操作</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>"看猫"需要您的同意，才能保存图片或视频到您的相册，如禁止将无法完成操作</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>"看猫"需要您的同意，才能访问相册进行选择照片上传/修改个人信息，如禁止将无法完成操作</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

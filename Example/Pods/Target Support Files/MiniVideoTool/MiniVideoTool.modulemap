@@ -1,0 +1,6 @@
+framework module MiniVideoTool {
+  umbrella header "MiniVideoTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
